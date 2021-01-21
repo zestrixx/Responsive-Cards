@@ -56,11 +56,9 @@ body{
 }
 .social-media li a i{
     padding: 10px;
-    transition: transform 100ms ease-in-out;
-}
-.social-media li a i{
     color: black;
     font-size: 30px;
+    transition: transform 100ms ease-in-out;
 }
 .fa-facebook-square:hover{
     transform: scale(1.6);
