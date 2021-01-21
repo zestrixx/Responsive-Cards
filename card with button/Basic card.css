@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 2rem ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    grid-gap: 2rem;
+    justify-content:center;
+}
+.card{
+    overflow: hidden;
+    box-shadow: 0px 2px 20px lightgray;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+    
+}
+.card-image{
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid lightgray;
+}
+.card-title{
+    padding: 10px;
+
+}
+.card-desc{
+    padding: 0 10px;
+}
+.card-btn{
+    padding: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid violet;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    padding: 10px 20px;
+    margin: 1rem 0 0 0;
+    width: 100%;
+    
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card:hover .card-btn{
+    background: violet;
+    color: white;
+}
