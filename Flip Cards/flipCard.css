@@ -28,8 +28,8 @@
   transform: perspective(600px) rotateY(0deg);
 }
 .back{
-  background-color: rgb(245, 245, 245);
-  outline: 1px solid grey;
+  background: rgb(172, 172, 172);
+  outline: 1px solid lightgrey;
   outline-offset: -15px;
   transform: perspective(600px) rotateY(180deg);
 }
@@ -39,10 +39,12 @@
 }
 .name{
   margin-top: 40px;
+  color: white;
 }
 .back-desc{
   padding: 1rem 2rem 0 2rem;
   font-size: 17px;
+  color: white;
 }
 .social-media{
   margin: 20px;
