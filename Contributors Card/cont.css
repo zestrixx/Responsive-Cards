@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 2rem;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    grid-gap: 2rem;
+    justify-content: center;
+}
+.profile-img{
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 20px 2px lightgrey;
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+}
+.name{
+    color: #2e3d49;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.profession{
+    padding: 10px 0 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #657482;
+    text-align: center;
+
+}
+.about{
+    color: #657482;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 20px 0px 20px; 
+}
+.card{
+    box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
+    border-radius: 0.375rem;
+}
+.card:nth-child(1){
+    border-top: 3px solid #02b3e4;
+}
+.card:nth-child(2){
+    border-top: 3px solid #ffae0c;
+}
+.card:nth-child(3){
+    border-top: 3px solid #a951ed;
+}
+.card:nth-child(4){
+    border-top: 3px solid #ff5483;
+}
+.card:nth-child(5){
+    border-top: 3px solid #02ccba;
+}
+.social-media{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-media li a i{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    transition: .2s ease-in;
+}
+.social-media li a i:hover{
+    transform: scale(1.5);
+}
