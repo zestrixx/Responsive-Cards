@@ -87,7 +87,7 @@ body {
   font-size: 23px;
   color: #333;
   font-weight: bold;
-  margin: 0 6px;
+  margin: 0 10px;
   transition: 0.4s;
   transform: translateY(200px);
   opacity: 0;
